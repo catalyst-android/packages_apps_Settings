@@ -15,7 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Sakura version -->
+    <!-- Cat maintainer -->
+    <string name="maintainer">Device Maintainer</string>
+
+    <!-- Cat version -->
     <string name="sakura_version">Sakura Version</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
