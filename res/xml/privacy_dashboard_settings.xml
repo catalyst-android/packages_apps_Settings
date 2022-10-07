@@ -96,6 +96,13 @@
         android:summary="@string/media_controls_lockscreen_description"
         settings:controller=
             "com.android.settings.sound.MediaControlsLockScreenPreferenceController" />
+            
+    <!-- Sensor Block -->
+    <Preference
+        android:key="sensor_block_settings"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:fragment="com.android.settings.privacy.SensorBlockSettings"/>
 
     <!-- Privacy Service -->
     <PreferenceCategory
