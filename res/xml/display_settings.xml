@@ -164,12 +164,6 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_gesture"
-            android:title="@string/double_tap_sleep_gesture_title"
-            android:summary="@string/double_tap_sleep_gesture_summary"
-            android:defaultValue="false" />
-
         <Preference
             android:key="display_cutout_force_fullscreen_settings"
             android:title="@string/display_cutout_force_fullscreen_title"
